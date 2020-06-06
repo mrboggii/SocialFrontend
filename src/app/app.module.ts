@@ -9,6 +9,10 @@ import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { RegisterComponent } from './register/register.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { UserEditComponent } from './user-edit/user-edit.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     ProfileComponent,
     PublicationsComponent,
-    RegisterComponent
+    RegisterComponent,
+    SidebarComponent,
+    TimelineComponent,
+    UserEditComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule
