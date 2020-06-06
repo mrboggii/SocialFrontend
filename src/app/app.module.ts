@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { FollowedComponent } from './followed/followed.component';
 import { FollowingComponent } from './following/following.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FollowedComponent,
     FollowingComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
