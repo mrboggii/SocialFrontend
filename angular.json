@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Faceless"
+    }
+  },
+  "defaultProject": "Faceless",
+  "cli": {
+    "analytics": false
+  }
 }
