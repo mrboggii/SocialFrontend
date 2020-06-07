@@ -1,12 +1,14 @@
 # Red Social 💻 
 
 <a href="https://imgur.com/7hRjgGX"><img src="https://i.imgur.com/7hRjgGX.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/wsqEmCT"><img src="https://i.imgur.com/wsqEmCT.gif" title="source: imgur.com" /></a>
 # PHP-Laravel + Angular.js
 Una sencilla red social en la que seremos capaces de:
 * Crear nuestro perfil
 * Hacer publicaciones en las que incluir texto e imagenes
 * Seguir a amigos
 * Mandar mensajes a nuestros seguidores mutuos
+
 
 Para arrancar el proyecto necesitaremos:
 
