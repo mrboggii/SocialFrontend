@@ -33,8 +33,6 @@ ng serve para arrancar el frontend
 
 <a href="https://imgur.com/bjLyEC8"><img src="https://i.imgur.com/bjLyEC8.png" title="source: imgur.com" /></a>
 
-## Errores 
-
 <a href="https://imgur.com/isKFY2V"><img src="https://i.imgur.com/isKFY2V.png" title="source: imgur.com" /></a>
 
 ## Timeline 
