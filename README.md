@@ -15,6 +15,7 @@ Para arrancar el proyecto necesitaremos:
 
 ⬇-Descargar el backend (https://github.com/mrboggii/SocialNetwork-wLaravel-PHP.git)
 y realizar php artisan update para ponernos al dia con el repositorio.
+Arrancamos nuestros servidores de Apache y de MySQL con la ayuda de MAMP/XAMPP
 php artisan serve para arrancar el servidor (todo esto tras haber creado la base de datos, y editado el archivo '.env' en el que indicaremos nuestra conexion con nuestra BD)
 
 <a href="https://imgur.com/MP7KVfl"><img src="https://i.imgur.com/MP7KVfl.gif" title="source: imgur.com" /></a>
@@ -63,6 +64,8 @@ ng serve para arrancar el frontend
 
 <a href="https://imgur.com/AxEXef9"><img src="https://i.imgur.com/AxEXef9.png" title="source: imgur.com" /></a>
 
+* MySQL - https://dev.mysql.com/downloads/installer/
+* MAMP - https://www.mamp.info/en/windows/
 * PHP - https://www.php.net/downloads
 * Laravel - https://laravel.com/docs/7.x/installation
 * Passport - https://laravel.com/docs/7.x/passport
