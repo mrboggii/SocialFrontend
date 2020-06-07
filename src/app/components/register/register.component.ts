@@ -28,8 +28,8 @@ export class RegisterComponent implements OnInit {
 
     onSubmit(form) {
         this._userService.register(this.user).subscribe(
-            response => {
-                if (response.user && response.user._id) {
+            response =>  { console.log(response); 
+                if (response && response.id) {
                     this.status = 'success';
                     form.reset();
                 } else {
