@@ -27,7 +27,7 @@ ng serve para arrancar el frontend
 
 ## Registro
 <a href="https://imgur.com/wsqEmCT"><img src="https://i.imgur.com/wsqEmCT.gif" title="source: imgur.com" /></a>
-<a href="https://imgur.com/SmtzfKW"><img src="https://i.imgur.com/SmtzfKW.png" title="source: imgur.com" /></a>
+
 
 ## Login
 
