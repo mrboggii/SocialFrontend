@@ -1,7 +1,8 @@
+
 # Red Social 💻 
 
 <a href="https://imgur.com/7hRjgGX"><img src="https://i.imgur.com/7hRjgGX.png" title="source: imgur.com" /></a>
-<a href="https://imgur.com/wsqEmCT"><img src="https://i.imgur.com/wsqEmCT.gif" title="source: imgur.com" /></a>
+
 # PHP-Laravel + Angular.js
 Una sencilla red social en la que seremos capaces de:
 * Crear nuestro perfil
@@ -20,19 +21,17 @@ php artisan serve para arrancar el servidor (todo esto tras haber creado la base
 y realizar npm install para instalar todas las dependencias.
 ng serve para arrancar el frontend
 
-(La aplicación sigue en rama develop para seguir implementando mejoras y novedades)
+<a href="https://imgur.com/fdq5f7p"><img src="https://i.imgur.com/fdq5f7p.gif" title="source: imgur.com" /></a>
 
 
 
 ## Registro
+<a href="https://imgur.com/wsqEmCT"><img src="https://i.imgur.com/wsqEmCT.gif" title="source: imgur.com" /></a>
 
-<a href="https://imgur.com/SmtzfKW"><img src="https://i.imgur.com/SmtzfKW.png" title="source: imgur.com" /></a>
 
 ## Login
 
 <a href="https://imgur.com/bjLyEC8"><img src="https://i.imgur.com/bjLyEC8.png" title="source: imgur.com" /></a>
-
-## Errores 
 
 <a href="https://imgur.com/isKFY2V"><img src="https://i.imgur.com/isKFY2V.png" title="source: imgur.com" /></a>
 
@@ -70,4 +69,3 @@ ng serve para arrancar el frontend
 ## AUTOR
 
 * **Bogdan Prutean** - *Full Stack developer* - (bogdanprutean.online)
-
