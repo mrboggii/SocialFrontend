@@ -2,7 +2,7 @@
 # Red Social 💻 
 
 <a href="https://imgur.com/7hRjgGX"><img src="https://i.imgur.com/7hRjgGX.png" title="source: imgur.com" /></a>
-<a href="https://imgur.com/wsqEmCT"><img src="https://i.imgur.com/wsqEmCT.gif" title="source: imgur.com" /></a>
+
 # PHP-Laravel + Angular.js
 Una sencilla red social en la que seremos capaces de:
 * Crear nuestro perfil
@@ -16,7 +16,7 @@ Para arrancar el proyecto necesitaremos:
 -Descargar el backend (https://github.com/mrboggii/SocialNetwork-wLaravel-PHP.git)
 y realizar php artisan update para ponernos al dia con el repositorio.
 php artisan serve para arrancar el servidor (todo esto tras haber creado la base de datos)
-
+<a href="https://imgur.com/fdq5f7p"><img src="https://i.imgur.com/fdq5f7p.gif" title="source: imgur.com" /></a>
 -Descargar el frontend (https://github.com/mrboggii/SocialFrontend.git)
 y realizar npm install para instalar todas las dependencias.
 ng serve para arrancar el frontend
@@ -26,7 +26,7 @@ ng serve para arrancar el frontend
 
 
 ## Registro
-
+<a href="https://imgur.com/wsqEmCT"><img src="https://i.imgur.com/wsqEmCT.gif" title="source: imgur.com" /></a>
 <a href="https://imgur.com/SmtzfKW"><img src="https://i.imgur.com/SmtzfKW.png" title="source: imgur.com" /></a>
 
 ## Login
