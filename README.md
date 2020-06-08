@@ -1,5 +1,5 @@
 
-# Red Social 💻💬 (develop)
+#  👥 Red Social 💻💬 (develop)
 
 <a href="https://imgur.com/7hRjgGX"><img src="https://i.imgur.com/7hRjgGX.png" title="source: imgur.com" /></a>
 
@@ -11,7 +11,13 @@ Una sencilla red social en la que seremos capaces de:
 * Mandar mensajes a nuestros seguidores mutuos
 
 
-Para arrancar el proyecto necesitaremos:
+##  🚀 Para arrancar el proyecto necesitaremos:
+
+### 💾 DB 
+
+<a href="https://imgur.com/54pWa7F"><img src="https://i.imgur.com/54pWa7F.png" title="source: imgur.com" /></a>
+
+### 📥 Instalaciones
 
 ⬇-Descargar el backend (https://github.com/mrboggii/SocialNetwork-wLaravel-PHP.git)
 y realizar php artisan update para ponernos al dia con el repositorio.
@@ -28,27 +34,27 @@ ng serve para arrancar el frontend
 
 
 
-## 📝 Registro
+## 📝 Registro 👤
 <a href="https://imgur.com/wsqEmCT"><img src="https://i.imgur.com/wsqEmCT.gif" title="source: imgur.com" /></a>
 
 
-## 🔑 Login
+## 🔑 Login 🔒
 
 <a href="https://imgur.com/bjLyEC8"><img src="https://i.imgur.com/bjLyEC8.png" title="source: imgur.com" /></a>
 
 <a href="https://imgur.com/isKFY2V"><img src="https://i.imgur.com/isKFY2V.png" title="source: imgur.com" /></a>
 
-## 📣 Timeline 
+## 📣 Timeline 📣
 
 <a href="https://imgur.com/1PdmDTI"><img src="https://i.imgur.com/1PdmDTI.png" title="source: imgur.com" /></a>
 
-## ✔ Navbar 
+## 👆 Navbar 👆
 
 <a href="https://imgur.com/CAFMo4R"><img src="https://i.imgur.com/CAFMo4R.png" title="source: imgur.com" /></a>
 
 <a href="https://imgur.com/juUJX3H"><img src="https://i.imgur.com/juUJX3H.png" title="source: imgur.com" /></a>
 
-## ✉ Mensajes
+## ✉ Mensajes ✉️
 
 <a href="https://imgur.com/NxiQ0p3"><img src="https://i.imgur.com/NxiQ0p3.png" title="source: imgur.com" /></a>
 
@@ -56,7 +62,7 @@ ng serve para arrancar el frontend
 
 <a href="https://imgur.com/KTB62Zz"><img src="https://i.imgur.com/KTB62Zz.png" title="source: imgur.com" /></a>
 
-## ⚙ Usuario 
+## ⚙ Usuario 👤 
 
 <a href="https://imgur.com/lkgHDON"><img src="https://i.imgur.com/lkgHDON.png" title="source: imgur.com" /></a>
 
@@ -76,5 +82,5 @@ ng serve para arrancar el frontend
 * GitFlow - https://danielkummer.github.io/git-flow-cheatsheet/
 ## AUTOR
 
-* **Bogdan Prutean** - *Full Stack developer* - (bogdanprutean.online)
+* ** ©️ Bogdan Prutean** - *Full Stack developer* - (bogdanprutean.online)
 
