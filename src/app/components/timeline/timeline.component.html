@@ -37,7 +37,7 @@
                                         <h4 class="modal-title">¿Eliminar realmente la publicación?</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Si la borrás no podrás deshacer la operación.</p>
+                                        <p>Si la borras no podrás deshacer la operación.</p>
                                         <!--<p>{{publication.text}}</p>-->
                                     </div>
                                     <div class="modal-footer">
@@ -45,6 +45,14 @@
                                         <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="deletePublication(publication._id)">
                                             Eliminar
                                         </button>
+                                        <!-- *************** LIKE *************** -->
+                                        <button *ngIf="!publication['hasLike']" type="button" class="btn btn-primary" data-dismiss="modal" (click)="addLike(publication._id)">
+                                            <label>Dar Like</label>
+                                        </button>
+                                        <button *ngIf="publication['hasLike']" type="button" class="btn btn-primary" data-dismiss="modal" (click)="delLike(publication._id)">
+                                            <label>Quitar Like</label>
+                                        </button>
+                                        <!-- *************** LIKE *************** -->
                                     </div>
                                 </div>
                             </div>

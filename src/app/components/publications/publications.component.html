@@ -20,6 +20,11 @@
                 <h4 class="publication-text pull-left">
                     {{publication.text}}
                 </h4>
+                <body ng-app ng-controller="Ctrl"> 
+                    <a ng-click="likeClick()" ng-init="liked='Like'; likeCount=0">
+                        {{liked}} {{likeCount}}
+                    </a>
+                </body>
             </div>
         </div>
     </div>

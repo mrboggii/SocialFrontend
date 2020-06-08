@@ -4,6 +4,7 @@ import {Publication} from '../../models/publication';
 import {GLOBAL} from '../../services/global';
 import {UserService} from '../../services/user.service';
 import {PublicationService} from '../../services/publication.service';
+import { forkJoin, of } from 'rxjs';
 
 @Component({
     selector: 'timeline',
@@ -42,17 +43,28 @@ export class TimelineComponent implements OnInit {
     }
 
     getPublications(page, adding = false) {
-        this._publicationService.getPublication(this.token, page).subscribe(
-            response => {
-                if (response.publications) {
-                    this.total = response.total_items;
-                    this.pages = response.pages;
-                    this.itemsPerPage = response.item_per_page;
+        forkJoin( // Esto sirve para concadenar observers
+            this._publicationService.getPublication(this.token, page),
+            of([{user_id: 1, publication_id: 2}, {user_id: 1, publication_id: 3} ]) // TODO: aquí tengo que crear this._publicationService.getLikes que hará la petición al backend
+        ).subscribe(
+            ([resPubs, respLikes]) => { // Aquí se obtiene la respuesta de cada observer, en el mismo orden que está arriba                
+                console.log(respLikes); // TODO: comprueba los datos
+                if (resPubs.publications) {
+                    const pubs = resPubs.publications.map( pub => {
+                        // EXPLAIN: aquí lo que estoy haciendo es recorrer todas las publicaciones y comprobar cada una si tiene like o no
+                        // TODO: comprueba que el valor es true o false;
+                        pub.hasLike = (respLikes.find( like => like.publication_id == pub._id))
+                        console.log(pub.hasLike)
+                        return pub;
+                    });
+                    this.total = resPubs.total_items;
+                    this.pages = resPubs.pages;
+                    this.itemsPerPage = resPubs.item_per_page;
                     if (!adding) {
-                        this.publications = response.publications;
+                        this.publications = pubs;
                     } else {
                         var arrayA = this.publications;
-                        var arrayB = response.publications;
+                        var arrayB = pubs;
                         this.publications = arrayA.concat(arrayB);
                         $("html, body").animate({scrollTop: $('body').prop("scrollHeight")}, 500);
                     }
