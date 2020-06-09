@@ -49,12 +49,12 @@ export class TimelineComponent implements OnInit {
         ).subscribe(
             ([resPubs, respLikes]) => { // Aquí se obtiene la respuesta de cada observer, en el mismo orden que está arriba                
                 console.log(respLikes); // TODO: comprueba los datos
-                if (resPubs.publications) {
+                if (resPubs.publications) { //BUSCAR ID DE USUARIO EN LA PUBLICACION
                     const pubs = resPubs.publications.map( pub => {
                         // EXPLAIN: aquí lo que estoy haciendo es recorrer todas las publicaciones y comprobar cada una si tiene like o no
                         // TODO: comprueba que el valor es true o false;
-                        pub.hasLike = (respLikes.find( like => like.publication_id == pub._id))
-                        console.log(pub.hasLike)
+                       // pub.hasLike = (respLikes.find( like => like.publication_id == pub._id))
+                      //  console.log(pub.hasLike)
                         return pub;
                     });
                     this.total = resPubs.total_items;
